@@ -4,6 +4,17 @@
   font-family: Raleway, sans-serif;
 }
 
+.link {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  cursor: pointer;
+}
+
+.link_active {
+  border-bottom: none;
+  cursor: auto;
+}
+
 /* Блок header */
 
 .header {
@@ -45,17 +56,6 @@
   list-style-type: none;
 }
 
-.header__link {
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-  cursor: pointer;
-}
-
-.header__link_active {
-  border-bottom: none;
-  cursor: auto;
-}
-
 .header__logo {
   align-self: start;
   border-bottom: none;
@@ -77,7 +77,7 @@
   justify-self: end;
 }
 
-.address .header__link {
+.address .link {
   white-space: nowrap;
 }
 
