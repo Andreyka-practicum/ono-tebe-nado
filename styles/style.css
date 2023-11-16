@@ -47,11 +47,12 @@
   line-height: normal;
 }
 
-.header__links-list-item:first-of-type {
-  padding-left: 0;
-}
+/* .header__links-list-item:first-of-type { */
+/*   padding-left: 0; */
+/* } */
 
 .header__links-list-item_no-bullit {
+  padding-left: 0;
   list-style-type: none;
 }
 
