@@ -23,10 +23,6 @@
   place-items: center start;
   color: #000;
   background-color: #fff;
-  /* font-size: 18px; */
-  /* font-style: normal; */
-  /* font-weight: 400; */
-  /* line-height: normal; */
 }
 
 .body__header {
@@ -321,7 +317,6 @@
 }
 
 .about__text {
-  /* нижний отступ должен быть у каждого абзаца, независимо от их количества, а не только у первого */
   padding: 0 0 25px;
   color: #000;
   font-size: 20px;
@@ -331,7 +326,6 @@
 }
 
 .about__text:last-of-type {
-  /* последнему абзацу нижний отступ не нужен */
   padding-bottom: 0;
 }
 
