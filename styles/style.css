@@ -19,14 +19,7 @@
 
 .header {
   display: grid;
-  grid-template: 109px / 1fr auto 1fr;
-  /*
-  Правило grid-template-rows с жёсткими значениями нужно удалить,
-  нет необходимости высчитывать высоту ячеек, само содержимое ячейки
-  определяет текущую высоту.
-  Надо исправить                    Александр Гриченок ревьюер
-  */
-  /* grid-template: auto / 1fr auto 1fr; */
+  grid-template: auto / 1fr auto 1fr;
   place-items: center start;
   color: #000;
   background-color: #fff;
@@ -54,16 +47,11 @@
   line-height: normal;
 }
 
-/* .header__links-list-item:first-of-type { */
-/*   padding-left: 0; */
-/* } */
+.header__links-list-item:first-of-type {
+  padding-left: 0;
+}
 
 .header__links-list-item_no-bullit {
-  padding-left: 0;
-  /*
-  Правило следует удалить, правый отступ не характеризует активный элемент
-  Надо исправить                    Александр Гриченок ревьюер
-  */
   list-style-type: none;
 }
 
@@ -130,13 +118,6 @@
 
 .aligned-text {
   line-height: 115%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  /*
-  Нет необходимости обрезать текст
-  Надо исправить                    Александр Гриченок ревьюер
-  */
 }
 
 .aligned-text_center {
@@ -183,17 +164,13 @@
 }
 
 .bet-button {
-  /*
-  Кнопка не наследует семейство шрифтов, его нужно явно указать или от наследовать(inherit)
-  Надо исправить                    Александр Гриченок ревьюер
-  */
   flex-shrink: 0;
   margin: 0;
   padding: 12px 32px;
   border: 1px solid currentColor;
   background: transparent;
   color: #fff;
-font-family: inherit;
+  font-family: inherit;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -221,12 +198,7 @@ font-family: inherit;
 .lots__card-list {
   display: flex;
   justify-content: space-between;
-  column-gap: 25px;
-  /*
-  Используйте короткую запись gap https://disk.yandex.com/i/Ai8HJXJE6PbvCQ
-  Надо исправить                    Александр Гриченок ревьюер
-  */
-  /* gap: 25px; */
+  gap: 25px;
   flex-wrap: wrap;
   list-style: none;
 }
@@ -315,12 +287,7 @@ font-family: inherit;
   width: 240px;
   border-radius: 50%;
   background: #000;
-}
-
-.about__logo:before {
-  content: '';
-  padding-top: 100%;
-  float: left;
+  aspect-ratio: 1 / 1;
 }
 
 .about__logo-image {
@@ -329,8 +296,8 @@ font-family: inherit;
 }
 
 .about__column {
-  /* Отступ для выравнивания заголовка по центру логотипа берем как
-  половину разницы между высотой .about__logo и размером шрифта .about__title */
+  /* Поле для выравнивания заголовка по центру логотипа берем как половину
+  разницы между высотой .about__logo и размером шрифта .about__title */
   padding: calc((240px - 40px) / 2) 0 0;
 }
 
@@ -398,14 +365,7 @@ font-family: inherit;
 .footer__social-list {
   display: flex;
   justify-content: space-between;
-  width: 240px;
-  /*
-  Ограничение ширины следует удалить, кол-во элементов в группе может изменится
-  и тогда отображение будет некорректным Воспользуйтесь гибким gap для создания
-  разрыва https://doka.guide/css/gap/
-  Надо исправить                    Александр Гриченок ревьюер
-  */
-  /* gap: 48px; */
+  gap: 48px;
   list-style: none;
 }
 

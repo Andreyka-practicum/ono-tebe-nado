@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -20,9 +20,11 @@
       <li class="header__links-list-item header__links-list-item_no-bullit">
         <a class="link link_active" href="#">главная</a>
       </li>
+
       <li class="header__links-list-item">
         <a class="link" href="#">посмотреть лоты</a>
       </li>
+
       <li class="header__links-list-item">
         <a class="link" href="#">об аукционе</a>
       </li>
@@ -33,7 +35,12 @@
     <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип проекта «Оно тебе надо»">
   </a>
 
-  <address class="address header__address"><a class="link" href="tel:+99995555555">+9 999 555 5555</a><br><a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><p>наб. Принсенграхт 263-265, Амстердам</p></address>
+  <address class="address header__address">
+    <a class="link" href="tel:+99995555555">+9 999 555 5555</a>
+    <br>
+    <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+    <p>наб. Принсенграхт 263-265, Амстердам</p>
+  </address>
 </header>
 
 <!-- Блок main -->
@@ -47,20 +54,14 @@
     <h1 class="cover__title">
       <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
       <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
-      <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
+      <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span
+        class="no-letter-spacing">о</span></span>
     </h1>
 
     <div class="cover__description">
-      <p class="cover__description-text"><span class="spacing-small">Аукцион вещей, в которые никто </span><span class="spacing-medium">не верил</span></p>
+      <p class="cover__description-text"><span class="spacing-small">Аукцион вещей, в которые никто </span><span
+        class="spacing-medium">не верил</span></p>
       <button class="bet-button">Сделать ставку</button>
-      <!--
-      Кнопке необходимо явно указать атрибут type. Дефолтный тип кнопки отвечает
-      за отправку формы(submit), поэтому на всех кнопках которые не отвечают за
-      отправку формы, дефолтный type необходимо переопределять.
-      - http://htmlbook.ru/html/button/type
-      Можно лучше                   Александр Гриченок ревьюер
-      -->
-<!--       <button class="bet-button" type="button">Сделать ставку</button> -->
     </div>
   </section>
 
@@ -69,7 +70,16 @@
   <section class="lots">
     <h2 class="lots__heading">Лоты</h2>
     <ul class="lots__card-list">
-      <li class="lots__card-list-item"><a class="card-link" href="#"><article class="card card_type_film"><div class="overlay"></div><h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3><p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p></article></a></li>
+      <li class="lots__card-list-item">
+        <a class="card-link" href="#">
+          <article class="card card_type_film">
+            <div class="overlay"></div>
+            <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+            <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
+              знали, что режиссёр — Пол Томас Андерсон?</p>
+          </article>
+        </a>
+      </li>
 
       <li class="lots__card-list-item">
         <a class="card-link" href="#">
@@ -136,9 +146,11 @@
       <li class="footer__menu-list-item">
         <a class="footer__menu-link footer__menu-link_active" href="#">главная</a>
       </li>
+
       <li class="footer__menu-list-item">
         <a class="footer__menu-link" href="#">посмотреть лоты</a>
       </li>
+
       <li class="footer__menu-list-item">
         <a class="footer__menu-link" href="#">об аукционе</a>
       </li>
@@ -147,28 +159,21 @@
 
   <ul class="footer__social-list">
     <li class="footer__social-list-item">
-      <a class="footer__social-link">
-      <!--
-      Ссылкам на внешние сайты можно добавить атрибут target="_blank", чтобы они
-      открывались в новой вкладке. После того как пользователь прочитает
-      интересующую его информацию на внешнем сайте ему будет легко вернуться на
-      ваш сайт - нужно будет просто закрыть вкладку с внешним сайтом.
-      Можно лучше                   Александр Гриченок ревьюер
-      -->
-<!--       <a class="footer__social-link" target="_blank"> -->
+      <a class="footer__social-link" target="_blank">
         <img class="footer__social-icon" src="./images/yt.svg" alt="Логотип видеохостинга «ютюб»">
       </a>
     </li>
+
     <li class="footer__social-list-item">
-      <a class="footer__social-link">
-<!--       <a class="footer__social-link" target="_blank"> -->
+      <a class="footer__social-link" target="_blank">
         <img class="footer__social-icon" src="./images/vk.svg" alt="Логотип социальной сети «ВКонтакте»">
       </a>
     </li>
+
     <li class="footer__social-list-item">
-      <a class="footer__social-link">
-<!--       <a class="footer__social-link" target="_blank"> -->
-        <img class="footer__social-icon" src="./images/pinterest.svg" alt="Логотип социального интернет-сервиса «Пинтерест»">
+      <a class="footer__social-link" target="_blank">
+        <img class="footer__social-icon" src="./images/pinterest.svg"
+          alt="Логотип социального интернет-сервиса «Пинтерест»">
       </a>
     </li>
   </ul>
