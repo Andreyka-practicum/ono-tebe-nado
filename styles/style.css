@@ -5,6 +5,7 @@
 }
 
 .link {
+  font-family: inherit;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   cursor: pointer;
@@ -23,6 +24,7 @@
   place-items: center start;
   color: #000;
   background-color: #fff;
+  font-family: inherit;
 }
 
 .body__header {
@@ -30,6 +32,7 @@
 }
 
 .header__menu {
+  font-family: inherit;
   text-transform: lowercase;
 }
 
@@ -37,10 +40,12 @@
   display: flex;
   column-gap: 30px;
   list-style: circle;
+  font-family: inherit;
 }
 
 .header__links-list-item {
   padding-left: 3px;
+  font-family: inherit;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -68,6 +73,7 @@
 
 .address {
   width: 240px;
+  font-family: inherit;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -88,6 +94,7 @@
   display: flex;
   flex-direction: column;
   gap: 181px;
+  font-family: inherit;
 }
 
 /* Секция cover */
@@ -98,6 +105,7 @@
   padding: 165px 50px 0;
   color: #fff;
   background: rgb(211 211 211 / .5) url('../images/cover.jpg') no-repeat center / cover;
+  font-family: inherit;
 }
 
 .overlay {
@@ -111,6 +119,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  font-family: inherit;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -119,6 +128,7 @@
 }
 
 .aligned-text {
+  font-family: inherit;
   line-height: 115%;
 }
 
@@ -146,9 +156,11 @@
   align-items: center;
   column-gap: 78px;
   margin: 135px 0 50px;
+  font-family: inherit;
 }
 
 .cover__description-text {
+  font-family: inherit;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -158,10 +170,12 @@
 
 .spacing-small {
   word-spacing: 17px;
+  font-family: inherit;
 }
 
 .spacing-medium {
   word-spacing: 22px;
+  font-family: inherit;
 }
 
 .bet-button {
@@ -184,11 +198,13 @@
 
 .lots {
   padding: 0 50px;
+  font-family: inherit;
 }
 
 .lots__heading {
   margin: 0 0 27px 40px;
   color: #000;
+  font-family: inherit;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -202,16 +218,19 @@
   gap: 25px;
   flex-wrap: wrap;
   list-style: none;
+  font-family: inherit;
 }
 
 .lots__card-list-item {
   flex-grow: 1;
   width: 430px;
   min-height: 450px;
+  font-family: inherit;
 }
 
 .card-link {
   display: block;
+  font-family: inherit;
   text-decoration: none;
   height: 100%;
   cursor: pointer;
@@ -225,6 +244,7 @@
   padding: 50px 40px;
   position: relative;
   background: rgb(211 211 211 / .5) no-repeat center / cover;
+  font-family: inherit;
   z-index: 0;
 }
 
@@ -242,6 +262,7 @@
 
 .card__title {
   color: #fff;
+  font-family: inherit;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -252,6 +273,7 @@
 
 .card__text {
   color: #fff;
+  font-family: inherit;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -262,6 +284,7 @@
   display: block;
   margin: 30px 0 2px 40px;
   color: #000;
+  font-family: inherit;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -280,6 +303,7 @@
   margin: 0 50px;
   color: #000;
   background-color: #fff;
+  font-family: inherit;
 }
 
 .about__logo {
@@ -301,10 +325,12 @@
   /* Поле для выравнивания заголовка по центру логотипа берем как половину
   разницы между высотой .about__logo и размером шрифта .about__title */
   padding: calc((240px - 40px) / 2) 0 0;
+  font-family: inherit;
 }
 
 .about__title {
   padding: 0 0 100px;
+  font-family: inherit;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -314,6 +340,7 @@
 
 .about__text {
   padding: 0 0 25px;
+  font-family: inherit;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -333,18 +360,22 @@
   color: #000;
   background-color: #fff;
   padding: 183px 50px 90px;
+  font-family: inherit;
 }
 
 .footer__menu {
   flex-shrink: 0;
+  font-family: inherit;
 }
 
 .footer__menu-list {
   text-align: center;
   list-style: none;
+  font-family: inherit;
 }
 
 .footer__menu-list-item {
+  font-family: inherit;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -352,6 +383,7 @@
 }
 
 .footer__menu-link {
+  font-family: inherit;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   cursor: pointer;
