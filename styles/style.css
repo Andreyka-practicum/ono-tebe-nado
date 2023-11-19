@@ -67,7 +67,8 @@
 }
 
 .address {
-  width: 240px;
+  /* width: 240px; */
+  width: 242px;
   color: #000;
   font-family: inherit;
   font-weight: 400;
@@ -225,7 +226,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 50px 40px;
+  /* padding: 50px 40px; */
+  padding: 50px 38px 50px 40px;
   color: #fff;
   font-family: inherit;
   background: rgb(211 211 211 / .5) no-repeat center / cover;
