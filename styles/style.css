@@ -28,7 +28,7 @@
 }
 
 .body__header {
-  margin: 92px 49px 92px 51px;
+  margin: 92px 50px;
 }
 
 .header__menu {
@@ -284,11 +284,7 @@
 }
 
 .body__about {
-  margin: 181px 50px 0;
-}
-
-.about__column {
-  margin: -1px 0;
+  margin: 180px 50px 0;
 }
 
 .about__logo {
@@ -311,9 +307,8 @@
 
 .about__title {
   /* Заголовок в правой колонке должен оказаться на одной линии с центром круга в левой колонке.
-  Потому поле берем как половину разницы между высотой .about__logo и размером шрифта .about__title
-  и компенсируем отрицательный отступ от .about__column */
-  padding: calc(((240px - 40px) / 2) + 1px) 0 100px;
+  Потому поле берем как половину разницы между высотой .about__logo и размером шрифта .about__title */
+  padding: calc((240px - 40px) / 2) 0 100px;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
